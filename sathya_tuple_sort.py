@@ -8,10 +8,10 @@ data = [
 ]
  
 #sorting entire list
-sorted_data = sorted(data)
+sorted_data = sorted(data,key=len)
 
 # to extract first elements
-result = list(zip(*sorted_data))[0]
+result = list(list(zip(*sorted_data))[0])
  
-print(list(result))
+print(result)
 

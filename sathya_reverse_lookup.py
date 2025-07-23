@@ -6,7 +6,7 @@ scores = {
     "Zoya": 88,
 }
 #user input
-user_score = int(input("Enter score: "))
+user_score = int(input("Enter score:"))
 
 #process
 d1=dict(zip(scores.values(),scores.keys()))
