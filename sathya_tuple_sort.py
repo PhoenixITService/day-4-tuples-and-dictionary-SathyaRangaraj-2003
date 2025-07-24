@@ -8,6 +8,7 @@ data = [
 ]
  
 #sorting entire list
+# key parameter to specify a function (or other callable) to be called on each list element prior to making comparisons.
 sorted_data = sorted(data,key=len)
 
 # to extract first elements
